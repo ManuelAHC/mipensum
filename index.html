@@ -4,15 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pensum Académico</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Lexend:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
-  <body>
-    <div class="container">
-      <h1>Pensum Académico</h1>
-      <div class="materias-list">
-        <table id="materias-table">
-          <!-- Las materias se cargarán aquí dinámicamente -->
-        </table>
+  <body class="bg-blue-200 font-sans">
+    <div class="min-h-screen flex flex-col">
+      <!-- Header -->
+      <header
+        class="flex items-center justify-between px-10 py-4 bg-white shadow-md"
+      >
+        <div class="flex items-center gap-4">
+          <svg
+            class="w-8 h-8 text-blue-500"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 48 48"
+          >
+            <g clip-path="url(#clip0_6_319)">
+              <path
+                d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                fill="currentColor"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_6_319">
+                <rect width="48" height="48" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <h1 class="text-lg font-bold text-gray-800">University</h1>
+        </div>
+        <nav class="flex items-center gap-8">
+          <a
+            href="#"
+            class="text-sm font-medium text-gray-700 hover:text-blue-500"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium text-gray-700 hover:text-blue-500"
+            >Subjects</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium text-gray-700 hover:text-blue-500"
+            >Progress</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium text-gray-700 hover:text-blue-500"
+            >Exams</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium text-gray-700 hover:text-blue-500"
+            >More</a
+          >
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <div class="flex flex-1 items-start justify-center gap-8 px-10 py-6">
+        <!-- Lista de Materias -->
+        <main class="max-w-3xl w-full">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">Pensum</h2>
+          <p class="text-gray-600 mb-6">
+            Check the subjects you have already completed.
+          </p>
+          <div id="subject-list">
+            <!-- Las materias se generarán aquí -->
+          </div>
+        </main>
+
+        <!-- Tarjeta de Progreso -->
+        <aside class="w-80 bg-white shadow-lg p-6 rounded-lg">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">Tu progreso</h3>
+          <p id="progress-percentage" class="text-blue-600 text-2xl font-bold">
+            0%
+          </p>
+          <div class="w-full bg-gray-200 rounded-full h-4 mt-2">
+            <div
+              id="progress-bar"
+              class="bg-blue-600 h-4 rounded-full"
+              style="width: 0%"
+            ></div>
+          </div>
+          <p id="completed-subjects" class="mt-4 text-gray-600">
+            0 de 0 materias completadas
+          </p>
+        </aside>
       </div>
     </div>
     <script src="script.js"></script>
