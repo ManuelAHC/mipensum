@@ -1,0 +1,299 @@
+{
+  "pensum": [
+    {
+      "semestre": 1,
+      "materias": [
+        {
+          "codigo": "BIO-0140",
+          "nombre": "Biología Básica",
+          "cr": 3
+        },
+        {
+          "codigo": "DOP-1000",
+          "nombre": "Orientación Institucional",
+          "cr": 1
+        },
+        {
+          "codigo": "HIS-0110",
+          "nombre": "Fundamentos de Historia Social Dominicana",
+          "cr": 3
+        },
+        {
+          "codigo": "INF-2060",
+          "nombre": "Computación Esencial",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-2070",
+          "nombre": "Laboratorio de Computación Esencial",
+          "cr": 1
+        },
+        {
+          "codigo": "LET-0110",
+          "nombre": "Lengua Española Básica I",
+          "cr": 3
+        },
+        {
+          "codigo": "SOC-0100",
+          "nombre": "Introducción a las Ciencias Sociales",
+          "cr": 3
+        }
+      ]
+    },
+    {
+      "semestre": 2,
+      "materias": [
+        {
+          "codigo": "EFS-0120",
+          "nombre": "Educación Física",
+          "cr": 2
+        },
+        {
+          "codigo": "IDI-0280",
+          "nombre": "Inglés Elemental",
+          "cr": 5
+        },
+        {
+          "codigo": "INF-5100",
+          "nombre": "Introducción a la Programación",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5110",
+          "nombre": "Laboratorio de Introducción a la Programación",
+          "cr": 1
+        },
+        {
+          "codigo": "LET-0120",
+          "nombre": "Lengua Española Básica II",
+          "cr": 3
+        },
+        {
+          "codigo": "MAT-0140",
+          "nombre": "Matemática Básica",
+          "cr": 4
+        }
+      ]
+    },
+    {
+      "semestre": 3,
+      "materias": [
+        {
+          "codigo": "FIL-0110",
+          "nombre": "Introducción a la Filosofía",
+          "cr": 3
+        },
+        {
+          "codigo": "FIS-0140",
+          "nombre": "Física Básica",
+          "cr": 4
+        },
+        {
+          "codigo": "IDI-0130",
+          "nombre": "Inglés Técnico",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5120",
+          "nombre": "Lenguaje de Programación I",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5130",
+          "nombre": "Laboratorio de Lenguaje de Programación I",
+          "cr": 1
+        },
+        {
+          "codigo": "MAT-2330",
+          "nombre": "Análisis Lineal y Matricial",
+          "cr": 5
+        },
+        {
+          "codigo": "QUI-0140",
+          "nombre": "Química Básica",
+          "cr": 3
+        }
+      ]
+    },
+    {
+      "semestre": 4,
+      "materias": [
+        {
+          "codigo": "FIS-1150",
+          "nombre": "Física para Informática",
+          "cr": 3
+        },
+        {
+          "codigo": "FIS-1160",
+          "nombre": "Laboratorio de Física para Informática",
+          "cr": 1
+        },
+        {
+          "codigo": "INF-5140",
+          "nombre": "Lenguaje de Programación II",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5150",
+          "nombre": "Laboratorio de Lenguaje de Programación II",
+          "cr": 1
+        },
+        {
+          "codigo": "INF-5260",
+          "nombre": "Estructura de Datos",
+          "cr": 3
+        },
+        {
+          "codigo": "MAT-3560",
+          "nombre": "Cálculo I",
+          "cr": 5
+        }
+      ]
+    },
+    {
+      "semestre": 5,
+      "materias": [
+        {
+          "codigo": "EST-2110",
+          "nombre": "Estadística Básica",
+          "cr": 5
+        },
+        {
+          "codigo": "INF-2080",
+          "nombre": "Organización y Arquitectura del Computador",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5160",
+          "nombre": "Lenguaje de Programación III",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5170",
+          "nombre": "Laboratorio de Lenguaje de Programación III",
+          "cr": 1
+        },
+        {
+          "codigo": "MAT-3570",
+          "nombre": "Cálculo II",
+          "cr": 5
+        }
+      ]
+    },
+    {
+      "semestre": 6,
+      "materias": [
+        {
+          "codigo": "CON-1190",
+          "nombre": "Contabilidad General I",
+          "cr": 5
+        },
+        {
+          "codigo": "INF-3220",
+          "nombre": "Algoritmos Computacionales",
+          "cr": 5
+        },
+        {
+          "codigo": "INF-3240",
+          "nombre": "Sistemas Operativos",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-4200",
+          "nombre": "Base de Datos I",
+          "cr": 5
+        }
+      ]
+    },
+    {
+      "semestre": 7,
+      "materias": [
+        {
+          "codigo": "BIO-2400",
+          "nombre": "Bioética",
+          "cr": 2
+        },
+        {
+          "codigo": "INF-3290",
+          "nombre": "Análisis y Diseño de Sistemas",
+          "cr": 5
+        },
+        {
+          "codigo": "INF-5200",
+          "nombre": "Base de Datos II",
+          "cr": 5
+        },
+        {
+          "codigo": "MAT-1430",
+          "nombre": "Matemática Financiera",
+          "cr": 5
+        },
+        {
+          "codigo": "MAT-3920",
+          "nombre": "Matemática Discreta para Computación",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-ZZA0",
+          "nombre": "Asignatura Optativa",
+          "cr": 3
+        }
+      ]
+    },
+    {
+      "semestre": 8,
+      "materias": [
+        {
+          "codigo": "INF-4250",
+          "nombre": "Teleproceso",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-4260",
+          "nombre": "Redes de Procesamiento de Datos",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5220",
+          "nombre": "Ingeniería de Software I",
+          "cr": 4
+        },
+        {
+          "codigo": "MAT-3940",
+          "nombre": "Investigación de Operaciones",
+          "cr": 5
+        },
+        {
+          "codigo": "INF-ZZB0",
+          "nombre": "Asignatura Optativa",
+          "cr": 5
+        }
+      ]
+    },
+    {
+      "semestre": 9,
+      "materias": [
+        {
+          "codigo": "INF-5230",
+          "nombre": "Auditoría de Sistemas Informáticos",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5240",
+          "nombre": "Administración de Centros de Cómputos",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-5250",
+          "nombre": "Ingeniería de Software II",
+          "cr": 4
+        },
+        {
+          "codigo": "INF-ZZC0",
+          "nombre": "Asignatura Optativa",
+          "cr": 4
+        }
+      ]
+    }
+  ]
+}
