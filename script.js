@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const progressBar = document.getElementById("progress-bar");
   const completedSubjectsText = document.getElementById("completed-subjects");
 
-  let totalSubjects = 0;
-  let completedSubjects = 0;
+  let totalCreditos = 0;
+  let creditosCompletados = 0;
   let savedState = JSON.parse(localStorage.getItem("subjectsState")) || {};
 
   if (!subjectList) {
@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const updateProgress = () => {
-    const progress = (completedSubjects / totalSubjects) * 100;
+    const progress = (creditosCompletados / totalCreditos) * 100;
     progressPercentage.textContent = `${Math.round(progress)}%`;
     progressBar.style.width = `${progress}%`;
-    completedSubjectsText.textContent = `${completedSubjects} de ${totalSubjects} materias completadas`;
+    completedSubjectsText.textContent = `${creditosCompletados} de ${totalCreditos} créditos completados`;
 
     // Guardar estado en localStorage
     localStorage.setItem("subjectsState", JSON.stringify(savedState));
@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
       subjectList.appendChild(semestreTitle);
 
       semestre.materias.forEach((materia) => {
-        totalSubjects++;
+        totalCreditos += materia.cr; // Sumar créditos al total
         const isCompleted = savedState[materia.codigo] || false;
-        if (isCompleted) completedSubjects++;
+        if (isCompleted) creditosCompletados += materia.cr; // Sumar créditos completados
 
         const materiaDiv = document.createElement("div");
         materiaDiv.className = `flex items-center justify-between bg-white shadow rounded-lg p-4 mb-2 ${
@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         checkbox.addEventListener("change", () => {
           if (checkbox.checked) {
-            completedSubjects++;
+            creditosCompletados += materia.cr; // Sumar créditos al completar
             materiaDiv.classList.add("bg-green-200");
           } else {
-            completedSubjects--;
+            creditosCompletados -= materia.cr; // Restar créditos al desmarcar
             materiaDiv.classList.remove("bg-green-200");
           }
           savedState[materia.codigo] = checkbox.checked;
