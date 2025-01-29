@@ -294,6 +294,16 @@
           "cr": 4
         }
       ]
+    },
+    {
+      "semestre": 10,
+      "materias": [
+        {
+          "codigo": "INF-7010",
+          "nombre": "Tesis de Grado o Curso Equivalente",
+          "cr": 8
+        }
+      ]
     }
   ]
 }
