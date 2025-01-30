@@ -27,9 +27,32 @@ document.addEventListener("DOMContentLoaded", () => {
   const renderMaterias = (semestres) => {
     semestres.forEach((semestre) => {
       const semestreTitle = document.createElement("h3");
-      semestreTitle.className = "text-lg font-bold text-gray-800 mb-4";
+      semestreTitle.className =
+        "text-lg font-bold text-gray-800 mb-4 flex justify-between items-center";
       semestreTitle.textContent = `Semestre ${semestre.semestre}`;
+
+      const toggleIcon = document.createElement("i");
+      toggleIcon.className =
+        "ml-4 fas fa-chevron-up text-blue-500 cursor-pointer";
+      semestreTitle.appendChild(toggleIcon);
+
+      const materiasContainer = document.createElement("div");
+      materiasContainer.className = "materias-container";
+
+      toggleIcon.addEventListener("click", () => {
+        if (materiasContainer.style.display === "none") {
+          materiasContainer.style.display = "block";
+          toggleIcon.className =
+            "ml-4 fas fa-chevron-up text-blue-500 cursor-pointer";
+        } else {
+          materiasContainer.style.display = "none";
+          toggleIcon.className =
+            "ml-4 fas fa-chevron-down text-blue-500 cursor-pointer";
+        }
+      });
+
       subjectList.appendChild(semestreTitle);
+      subjectList.appendChild(materiasContainer);
 
       semestre.materias.forEach((materia) => {
         totalCreditos += materia.cr; // Sumar créditos al total
@@ -62,17 +85,15 @@ document.addEventListener("DOMContentLoaded", () => {
             creditosCompletados -= materia.cr; // Restar créditos al desmarcar
             materiaDiv.classList.remove("bg-green-200");
           }
-          savedState[materia.codigo] = checkbox.checked;
           updateProgress();
         });
 
         materiaDiv.appendChild(infoDiv);
         materiaDiv.appendChild(checkbox);
-        subjectList.appendChild(materiaDiv);
+        materiasContainer.appendChild(materiaDiv);
       });
     });
-
-    updateProgress();
+    updateProgress(); // Llamar a updateProgress después de renderizar las materias
   };
 
   fetch(jsonURL)
