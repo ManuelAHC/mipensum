@@ -63,29 +63,57 @@
       <div class="flex flex-1 items-start justify-center gap-8 px-10 py-6">
         <!-- Lista de Materias -->
         <main class="max-w-3xl w-full">
-          <h2 class="text-2xl font-bold text-gray-800 mb-4">Pensum</h2>
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">
+            Pensum Académico
+          </h2>
           <div id="subject-list">
             <!-- Las materias se generarán aquí -->
           </div>
         </main>
 
-        <!-- Tarjeta de Progreso -->
-        <aside class="w-80 bg-white shadow-lg p-6 rounded-lg sticky top-4">
-          <h3 class="text-lg font-bold text-gray-800 mb-4">Tu progreso</h3>
-          <p id="progress-percentage" class="text-blue-600 text-2xl font-bold">
-            0%
-          </p>
-          <div class="w-full bg-gray-200 rounded-full h-4 mt-2">
-            <div
-              id="progress-bar"
-              class="bg-blue-600 h-4 rounded-full"
-              style="width: 0%"
-            ></div>
-          </div>
-          <p id="completed-subjects" class="mt-4 text-gray-600">
-            0 de 0 materias completadas
-          </p>
-        </aside>
+        <div class="flex flex-col gap-4 sticky top-4">
+          <!-- Tarjeta de Selección de Pensum -->
+          <aside
+            class="w-80 bg-white shadow-lg p-6 rounded-lg sticky top-4 mb-4"
+          >
+            <h3 class="text-lg font-bold text-gray-800 mb-4">
+              Selecciona un Pensum
+            </h3>
+            <select
+              id="pensum-select"
+              class="w-full p-2 border border-gray-300 rounded"
+            >
+              <option value="Pensums/pensumInformatica.json">
+                Informática
+              </option>
+              <option value="Pensums/pensumArquitectura.json">
+                Arquitectura
+              </option>
+              <!-- Añade más opciones según sea necesario -->
+            </select>
+          </aside>
+
+          <!-- Tarjeta de Progreso -->
+          <aside class="w-80 bg-white shadow-lg p-6 rounded-lg sticky top-4">
+            <h3 class="text-lg font-bold text-gray-800 mb-4">Tu progreso</h3>
+            <p
+              id="progress-percentage"
+              class="text-blue-600 text-2xl font-bold"
+            >
+              0%
+            </p>
+            <div class="w-full bg-gray-200 rounded-full h-4 mt-2">
+              <div
+                id="progress-bar"
+                class="bg-blue-600 h-4 rounded-full"
+                style="width: 0%"
+              ></div>
+            </div>
+            <p id="completed-subjects" class="mt-4 text-gray-600">
+              0 de 0 materias completadas
+            </p>
+          </aside>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>

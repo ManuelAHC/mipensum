@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const jsonURL = "Pensums/pensumInformatica.json";
+  let jsonURL = "Pensums/pensumInformatica.json";
   const subjectList = document.getElementById("subject-list");
   const progressPercentage = document.getElementById("progress-percentage");
   const progressBar = document.getElementById("progress-bar");
   const completedSubjectsText = document.getElementById("completed-subjects");
+  const pensumSelect = document.getElementById("pensum-select");
 
   let totalCreditos = 0;
   let creditosCompletados = 0;
@@ -24,8 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("subjectsState", JSON.stringify(savedState));
   };
 
-  const renderMaterias = (semestres) => {
-    semestres.forEach((semestre) => {
+  const renderMaterias = (pensum) => {
+    subjectList.innerHTML = ""; // Limpiar la lista de materias
+    totalCreditos = 0;
+    creditosCompletados = 0;
+
+    if (!pensum) {
+      console.error("No se encontraron semestres en los datos.");
+      return;
+    }
+
+    pensum.forEach((semestre) => {
       const semestreTitle = document.createElement("h3");
       semestreTitle.className =
         "text-lg font-bold text-gray-800 mb-4 flex justify-between items-center";
@@ -96,18 +106,24 @@ document.addEventListener("DOMContentLoaded", () => {
     updateProgress(); // Llamar a updateProgress después de renderizar las materias
   };
 
-  fetch(jsonURL)
-    .then((response) => {
-      if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
-      return response.json();
-    })
-    .then((data) => renderMaterias(data.pensum))
-    .catch((error) => {
-      console.error("Error al cargar el JSON:", error);
-      const errorMessage = document.createElement("p");
-      errorMessage.className = "text-red-500";
-      errorMessage.textContent =
-        "No se pudo cargar el pensum. Por favor, intente más tarde.";
-      subjectList.appendChild(errorMessage);
-    });
+  const loadPensum = (url) => {
+    fetch(url)
+      .then((response) => {
+        if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
+        return response.json();
+      })
+      .then((data) => {
+        renderMaterias(data.pensum);
+      })
+      .catch((error) => {
+        console.error("Error al cargar los datos:", error);
+      });
+  };
+
+  pensumSelect.addEventListener("change", (event) => {
+    jsonURL = event.target.value;
+    loadPensum(jsonURL);
+  });
+
+  loadPensum(jsonURL); // Cargar el pensum inicial
 });

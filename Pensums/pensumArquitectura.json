@@ -1,0 +1,238 @@
+{
+  "pensum": [
+    {
+      "semestre": 1,
+      "materias": [
+        {
+          "codigo": "ARQ-1310",
+          "nombre": "Introducción A La Arquitectura",
+          "cr": 3
+        },
+        { "codigo": "ARQ-1410", "nombre": "Dibujo Técnico I-A", "cr": 4 },
+        { "codigo": "ARQ-1430", "nombre": "Expresión I", "cr": 3 },
+        {
+          "codigo": "ARQ-2170",
+          "nombre": "Diseño Arquitectónico Básico I",
+          "cr": 6
+        },
+        {
+          "codigo": "DOP-1000",
+          "nombre": "Orientación Institucional",
+          "cr": 1
+        },
+        { "codigo": "FIL-0110", "nombre": "Int A La Filosofía", "cr": 3 },
+        {
+          "codigo": "HIS-0110",
+          "nombre": "Fund De His Social Dominicana",
+          "cr": 3
+        },
+        { "codigo": "LET-0110", "nombre": "Lengua Española Básica I", "cr": 3 },
+        { "codigo": "MAT-0140", "nombre": "Matemática Básica", "cr": 4 }
+      ]
+    },
+    {
+      "semestre": 2,
+      "materias": [
+        {
+          "codigo": "ARQ-1250",
+          "nombre": "Geometría Descriptiva I-A",
+          "cr": 4
+        },
+        { "codigo": "ARQ-1420", "nombre": "Dibujo Arquitectónico I", "cr": 4 },
+        { "codigo": "ARQ-1440", "nombre": "Expresión II", "cr": 3 },
+        {
+          "codigo": "ARQ-1820",
+          "nombre": "Historia De La Arquitectura I",
+          "cr": 3
+        },
+        {
+          "codigo": "ARQ-2180",
+          "nombre": "Diseño Arquitectónico Básico II",
+          "cr": 6
+        },
+        { "codigo": "EFS-0110", "nombre": "Educación Física", "cr": 1 },
+        {
+          "codigo": "LET-0120",
+          "nombre": "Lengua Española Básica II",
+          "cr": 3
+        },
+        { "codigo": "MAT-2550", "nombre": "Análisis Matemático", "cr": 3 },
+        { "codigo": "QUI-0140", "nombre": "Química Básica", "cr": 3 },
+        {
+          "codigo": "SOC-0110",
+          "nombre": "Int A Las Ciencias Sociales",
+          "cr": 2
+        }
+      ]
+    },
+    {
+      "semestre": 3,
+      "materias": [
+        { "codigo": "ARQ-1230", "nombre": "Perspectiva Y Sombra", "cr": 4 },
+        { "codigo": "ARQ-2000", "nombre": "Modelo Arquitectónico", "cr": 3 },
+        {
+          "codigo": "ARQ-2190",
+          "nombre": "Diseño Arquitectónico Básico III",
+          "cr": 6
+        },
+        {
+          "codigo": "ARQ-2340",
+          "nombre": "Teoría De La Arquitectura I",
+          "cr": 3
+        },
+        {
+          "codigo": "ARQ-2830",
+          "nombre": "Historia De La Arquitectura II",
+          "cr": 3
+        },
+        { "codigo": "BIO-0140", "nombre": "Biología Básica", "cr": 3 },
+        { "codigo": "FIS-0140", "nombre": "Física Básica", "cr": 4 },
+        {
+          "codigo": "INF-1030",
+          "nombre": "Introducción A La Informática",
+          "cr": 4
+        }
+      ]
+    },
+    {
+      "semestre": 4,
+      "materias": [
+        { "codigo": "ARQ-2250", "nombre": "Dibujo Con Ordenador I", "cr": 3 },
+        { "codigo": "ARQ-2330", "nombre": "Arquitectura Y Clima", "cr": 3 },
+        {
+          "codigo": "ARQ-2550",
+          "nombre": "Técnica De Presentación I",
+          "cr": 4
+        },
+        {
+          "codigo": "ARQ-3110",
+          "nombre": "Diseño Arquitectónico Básico IV",
+          "cr": 6
+        },
+        {
+          "codigo": "ARQ-3350",
+          "nombre": "Teoría De La Arquitectura II",
+          "cr": 3
+        },
+        { "codigo": "ARQ-3500", "nombre": "Estática", "cr": 4 },
+        {
+          "codigo": "ARQ-3840",
+          "nombre": "Historia De La Arquitectura III",
+          "cr": 3
+        },
+        {
+          "codigo": "SOC-1270",
+          "nombre": "Métodos Y Tec De Investigación",
+          "cr": 3
+        }
+      ]
+    },
+    {
+      "semestre": 5,
+      "materias": [
+        {
+          "codigo": "AGM-1330",
+          "nombre": "Topografía Para Arquitectos",
+          "cr": 3
+        },
+        {
+          "codigo": "ARQ-2300",
+          "nombre": "Arq Y Comportamiento Humano",
+          "cr": 3
+        },
+        {
+          "codigo": "ARQ-3120",
+          "nombre": "Diseño Arquitectónico Básico V",
+          "cr": 9
+        },
+        {
+          "codigo": "ARQ-4510",
+          "nombre": "Resistencia De Materiales",
+          "cr": 4
+        },
+        {
+          "codigo": "ARQ-4550",
+          "nombre": "Materiales Y Met De Const I",
+          "cr": 3
+        },
+        { "codigo": "SOC-2110", "nombre": "Arquitectura Y Sociedad", "cr": 3 }
+      ]
+    },
+    {
+      "semestre": 6,
+      "materias": [
+        { "codigo": "ARQ-3240", "nombre": "Interiores", "cr": 4 },
+        { "codigo": "ARQ-3410", "nombre": "Urbanismo I", "cr": 4 },
+        { "codigo": "ARQ-3580", "nombre": "Diseño Estructural I", "cr": 4 },
+        {
+          "codigo": "ARQ-4110",
+          "nombre": "Diseño Arquitectónico VI",
+          "cr": 12
+        },
+        { "codigo": "ARQ-4500", "nombre": "Instalaciones Sanitarias", "cr": 3 },
+        {
+          "codigo": "ARQ-4560",
+          "nombre": "Materiales Y Met De Const II",
+          "cr": 3
+        }
+      ]
+    },
+    {
+      "semestre": 7,
+      "materias": [
+        { "codigo": "ARQ-3420", "nombre": "Urbanismo II", "cr": 6 },
+        { "codigo": "ARQ-3590", "nombre": "Diseño Estructural II", "cr": 4 },
+        {
+          "codigo": "ARQ-4120",
+          "nombre": "Diseño Arquitectónico VII",
+          "cr": 12
+        },
+        {
+          "codigo": "IEM-3540",
+          "nombre": "Inst Elect Y Luminotecnia I",
+          "cr": 3
+        }
+      ]
+    },
+    {
+      "semestre": 8,
+      "materias": [
+        {
+          "codigo": "ADM-1120",
+          "nombre": "Principios De Administración",
+          "cr": 3
+        },
+        { "codigo": "ARQ-3430", "nombre": "Urbanismo III", "cr": 6 },
+        { "codigo": "ARQ-3610", "nombre": "Costo Y Presupuesto I", "cr": 3 },
+        {
+          "codigo": "ARQ-4190",
+          "nombre": "Diseño Arquitectónico VIII",
+          "cr": 12
+        }
+      ]
+    },
+    {
+      "semestre": 9,
+      "materias": [
+        { "codigo": "ARQ-5120", "nombre": "Trabajo De Grado I", "cr": 12 },
+        {
+          "codigo": "ARQ-5610",
+          "nombre": "Práctica De La Arquitectura",
+          "cr": 2
+        },
+        {
+          "codigo": "ARQ-5630",
+          "nombre": "Organización Y Adm De Obras I",
+          "cr": 2
+        },
+        { "codigo": "ARQ-ZZZ0", "nombre": "Asignatura Optativa", "cr": 15 }
+      ]
+    },
+    {
+      "semestre": 10,
+      "materias": [
+        { "codigo": "ARQ-5130", "nombre": "Trabajo De Grado II", "cr": 12 }
+      ]
+    }
+  ]
+}
