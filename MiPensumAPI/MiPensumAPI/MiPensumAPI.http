@@ -1,0 +1,6 @@
+@MiPensumAPI_HostAddress = http://localhost:5137
+
+GET {{MiPensumAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

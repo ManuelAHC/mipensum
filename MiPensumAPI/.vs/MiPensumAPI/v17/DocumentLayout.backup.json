@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\models\\progreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\models\\progreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\controllers\\progresocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\controllers\\progresocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\models\\pensumdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\models\\pensumdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Materia.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Models\\Materia.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Materia.cs",
+              "RelativeToolTip": "MiPensumAPI\\Models\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:29:21.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MiPensumAPI\\appsettings.json",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\appsettings.json",
+              "RelativeToolTip": "MiPensumAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T23:28:57.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "MiPensumAPI\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:09:15.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PensumDbContext.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\PensumDbContext.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Models\\PensumDbContext.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\PensumDbContext.cs",
+              "RelativeToolTip": "MiPensumAPI\\Models\\PensumDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:01:58.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProgresoController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\ProgresoController.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Controllers\\ProgresoController.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\ProgresoController.cs",
+              "RelativeToolTip": "MiPensumAPI\\Controllers\\ProgresoController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwBcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:23:35.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Progreso.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Progreso.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Models\\Progreso.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Progreso.cs",
+              "RelativeToolTip": "MiPensumAPI\\Models\\Progreso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:01:06.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MateriasController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\MateriasController.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Controllers\\MateriasController.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\MateriasController.cs",
+              "RelativeToolTip": "MiPensumAPI\\Controllers\\MateriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:18:47.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Program.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Program.cs",
+              "RelativeToolTip": "MiPensumAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:02:57.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "MiPensumAPI\\Models\\Usuario.cs",
+              "ToolTip": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Usuario.cs",
+              "RelativeToolTip": "MiPensumAPI\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:00:09.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
