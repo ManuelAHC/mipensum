@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|d:\\proyectos\\mipensum\\mipensum\\mipensumapi\\mipensumapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD39A3C1-BC51-4613-A7BE-ADC7253887B5}|MiPensumAPI\\MiPensumAPI.csproj|solutionrelative:mipensumapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,8 +57,12 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Materia.cs",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Materia.cs",
               "RelativeDocumentMoniker": "MiPensumAPI\\Models\\Materia.cs",
@@ -66,12 +70,11 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\Materia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:29:21.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:29:21.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MiPensumAPI\\appsettings.json",
@@ -84,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "MiPensumAPI\\Controllers\\UsuariosController.cs",
@@ -92,12 +95,11 @@
               "RelativeToolTip": "MiPensumAPI\\Controllers\\UsuariosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:09:15.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:09:15.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PensumDbContext.cs",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\PensumDbContext.cs",
               "RelativeDocumentMoniker": "MiPensumAPI\\Models\\PensumDbContext.cs",
@@ -105,12 +107,11 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\PensumDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:01:58.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:01:58.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProgresoController.cs",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\ProgresoController.cs",
               "RelativeDocumentMoniker": "MiPensumAPI\\Controllers\\ProgresoController.cs",
@@ -118,12 +119,11 @@
               "RelativeToolTip": "MiPensumAPI\\Controllers\\ProgresoController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAmwBcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:23:35.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:23:35.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Progreso.cs",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Models\\Progreso.cs",
               "RelativeDocumentMoniker": "MiPensumAPI\\Models\\Progreso.cs",
@@ -131,12 +131,11 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\Progreso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:01:06.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:01:06.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MateriasController.cs",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Controllers\\MateriasController.cs",
               "RelativeDocumentMoniker": "MiPensumAPI\\Controllers\\MateriasController.cs",
@@ -144,12 +143,11 @@
               "RelativeToolTip": "MiPensumAPI\\Controllers\\MateriasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:18:47.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:18:47.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Proyectos\\miPensum\\mipensum\\MiPensumAPI\\MiPensumAPI\\Program.cs",
               "RelativeDocumentMoniker": "MiPensumAPI\\Program.cs",
@@ -170,8 +168,7 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:00:09.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:00:09.801Z"
             }
           ]
         }

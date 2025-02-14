@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "0sCxqal24LQsgxUtfxu7I2lZmcDRIhFlPWgIkOe3WKE=",
+  "Hash": "a2TqX+ueFlcVgA72s2AY2aGNHqTEZqZScIZUNfu6r6M=",
   "Source": "MiPensumAPI",
   "BasePath": "_content/MiPensumAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -66,8 +66,7 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\Materia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:29:21.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:29:21.361Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "MiPensumAPI\\Controllers\\UsuariosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:09:15.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:09:15.037Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\PensumDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:01:58.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:01:58.8Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "MiPensumAPI\\Controllers\\ProgresoController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAmwBcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:23:35.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:23:35.146Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\Progreso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:01:06.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:01:06.393Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "MiPensumAPI\\Controllers\\MateriasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:18:47.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:18:47.861Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "MiPensumAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:02:57.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:02:57.66Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,11 @@
               "RelativeToolTip": "MiPensumAPI\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T00:00:09.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T00:00:09.801Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

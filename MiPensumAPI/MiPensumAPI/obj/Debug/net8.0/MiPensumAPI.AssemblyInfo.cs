@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiPensumAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bde434df624348f85376d76189ffb1fa2c5b386")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f533a23c9c2d677d83ddbbff6cd2d6ae6e305b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiPensumAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiPensumAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
