@@ -143,4 +143,14 @@ aside {
     position: relative;
     top: 0;
   }
+
+  /* Asegurar que las tarjetas se muestren arriba de las materias */
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-col > aside {
+    order: -1;
+  }
 }
