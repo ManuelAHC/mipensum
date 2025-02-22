@@ -1,10 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
   let jsonURL = "Pensums/pensumInformatica.json";
   const subjectList = document.getElementById("subject-list");
-  const progressPercentage = document.getElementById("progress-percentage");
-  const progressBar = document.getElementById("progress-bar");
-  const completedSubjectsText = document.getElementById("completed-subjects");
+  const progressPercentageMobile = document.getElementById(
+    "progress-percentage-mobile"
+  );
+  const progressBarMobile = document.getElementById("progress-bar-mobile");
+  const completedSubjectsMobile = document.getElementById(
+    "completed-subjects-mobile"
+  );
+  const progressPercentageDesktop = document.getElementById(
+    "progress-percentage-desktop"
+  );
+  const progressBarDesktop = document.getElementById("progress-bar-desktop");
+  const completedSubjectsDesktop = document.getElementById(
+    "completed-subjects-desktop"
+  );
   const pensumSelect = document.getElementById("pensum-select");
+  const pensumSelectDesktop = document.getElementById("pensum-select-desktop");
 
   let totalCreditos = 0;
   let creditosCompletados = 0;
@@ -15,16 +27,24 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  // Función para actualizar el progreso
   const updateProgress = () => {
     const progress = (creditosCompletados / totalCreditos) * 100;
-    progressPercentage.textContent = `${Math.round(progress)}%`;
-    progressBar.style.width = `${progress}%`;
-    completedSubjectsText.textContent = `${creditosCompletados} de ${totalCreditos} créditos completados`;
+
+    // Actualizar tarjetas de progreso (móvil y escritorio)
+    progressPercentageMobile.textContent = `${Math.round(progress)}%`;
+    progressBarMobile.style.width = `${progress}%`;
+    completedSubjectsMobile.textContent = `${creditosCompletados} de ${totalCreditos} créditos completados`;
+
+    progressPercentageDesktop.textContent = `${Math.round(progress)}%`;
+    progressBarDesktop.style.width = `${progress}%`;
+    completedSubjectsDesktop.textContent = `${creditosCompletados} de ${totalCreditos} créditos completados`;
 
     // Guardar estado en localStorage
     localStorage.setItem("subjectsState", JSON.stringify(savedState));
   };
 
+  // Función para renderizar las materias
   const renderMaterias = (pensum) => {
     subjectList.innerHTML = ""; // Limpiar la lista de materias
     totalCreditos = 0;
@@ -47,7 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
       semestreTitle.appendChild(toggleIcon);
 
       const materiasContainer = document.createElement("div");
-      materiasContainer.className = "materias-container";
+      materiasContainer.className =
+        "materias-container flex flex-col space-y-4";
 
       toggleIcon.addEventListener("click", () => {
         if (materiasContainer.style.display === "none") {
@@ -70,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (isCompleted) creditosCompletados += materia.cr; // Sumar créditos completados
 
         const materiaDiv = document.createElement("div");
-        materiaDiv.className = `flex items-center justify-between bg-white shadow rounded-lg p-4 mb-2 ${
+        materiaDiv.className = `flex items-center justify-between bg-white shadow rounded-lg p-4 ${
           isCompleted ? "bg-green-200" : ""
         }`;
 
@@ -95,7 +116,8 @@ document.addEventListener("DOMContentLoaded", () => {
             creditosCompletados -= materia.cr; // Restar créditos al desmarcar
             materiaDiv.classList.remove("bg-green-200");
           }
-          updateProgress();
+          savedState[materia.codigo] = checkbox.checked; // Actualizar estado guardado
+          updateProgress(); // Actualizar el progreso
         });
 
         materiaDiv.appendChild(infoDiv);
@@ -106,6 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateProgress(); // Llamar a updateProgress después de renderizar las materias
   };
 
+  // Función para cargar el pensum desde un archivo JSON
   const loadPensum = (url) => {
     fetch(url)
       .then((response) => {
@@ -120,10 +143,18 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   };
 
+  // Evento para cambiar el pensum (versión móvil)
   pensumSelect.addEventListener("change", (event) => {
     jsonURL = event.target.value;
     loadPensum(jsonURL);
   });
 
-  loadPensum(jsonURL); // Cargar el pensum inicial
+  // Evento para cambiar el pensum (versión escritorio)
+  pensumSelectDesktop.addEventListener("change", (event) => {
+    jsonURL = event.target.value;
+    loadPensum(jsonURL);
+  });
+
+  // Cargar el pensum inicial
+  loadPensum(jsonURL);
 });
