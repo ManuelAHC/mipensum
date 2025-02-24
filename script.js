@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Función para cargar el pensum desde el backend
   const loadPensum = (url) => {
-    fetch("http://127.0.0.1:5000/scrape-pensum", {
+    fetch("/scrape-pensum", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
