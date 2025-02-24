@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Función para cargar el pensum desde el backend
   const loadPensum = (url) => {
-    fetch("/scrape-pensum", {
+    fetch("https://102c-190-167-145-7.ngrok-free.app/scrape-pensum", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
