@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let jsonURL = "Pensums/pensumInformatica.json";
   const subjectList = document.getElementById("subject-list");
   const progressPercentage = document.getElementById("progress-percentage");
   const progressBar = document.getElementById("progress-bar");
@@ -15,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  // Función para actualizar el progreso
   const updateProgress = () => {
     const progress = (creditosCompletados / totalCreditos) * 100;
     progressPercentage.textContent = `${Math.round(progress)}%`;
@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("subjectsState", JSON.stringify(savedState));
   };
 
+  // Función para renderizar las materias
   const renderMaterias = (pensum) => {
     subjectList.innerHTML = ""; // Limpiar la lista de materias
     totalCreditos = 0;
@@ -106,8 +107,15 @@ document.addEventListener("DOMContentLoaded", () => {
     updateProgress(); // Llamar a updateProgress después de renderizar las materias
   };
 
+  // Función para cargar el pensum desde el backend
   const loadPensum = (url) => {
-    fetch(url)
+    fetch("http://127.0.0.1:5000/scrape-pensum", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ url }),
+    })
       .then((response) => {
         if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
         return response.json();
@@ -120,10 +128,13 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   };
 
+  // Escuchar cambios en la selección del pensum
   pensumSelect.addEventListener("change", (event) => {
-    jsonURL = event.target.value;
-    loadPensum(jsonURL);
+    const url = event.target.value; // Obtener el enlace del pensum seleccionado
+    loadPensum(url); // Cargar el pensum desde el backend
   });
 
-  loadPensum(jsonURL); // Cargar el pensum inicial
+  // Cargar el pensum inicial (opcional)
+  const initialUrl = pensumSelect.value;
+  loadPensum(initialUrl);
 });
